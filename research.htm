@@ -1,0 +1,80 @@
+
+<link rel="stylesheet" href="mysheetcss.css">
+
+ </style>
+ 
+ <body>
+
+<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="http://www.jeremylao.xyz">Main</a>
+		<a href="http://www.jeremylao.xyz/education.htm">Education</a>
+		<a href="http://www.jeremylao.xyz/research.htm">Research</a>
+		<a href="http://www.jeremylao.xyz/QED.htm">Advisory</a>
+		<a href="http://www.jeremylao.xyz/misc.htm"> Courses & Hobbies</a>
+		<a href="http://www.linkedin.com/in/jlao1" target="_blank" > LinkedIn</a>
+		<a href="https://jeremylao.wordpress.com/" target="_blank" > Markets Blog - Wordpress</a>
+		<a href="https://github.com/jeremylao" target="_blank" > GitHub</a>
+</div>
+
+
+<br>
+<span style="font-size:30px;cursor:pointer;padding-left:30px;" onclick="openNav()">&#9776; Menu </span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
+<body>
+	<div id='research'>
+	
+		<script type="text/javascript">
+		
+			var research_id = document.getElementById('research');
+			var research ='--Research--';
+		
+			research_id.style.fontSize = "1.75em";
+			research_id.style.fontWeight = 'bold';
+			document.getElementById('research').innerHTML =  research ;
+	
+			document.write("<p class='silverlight'>");
+		
+			var fomc = "Deriving FOMC Rate Move Probability Using Fed Funds Futures";
+			var fomc_link = "Research Paper";
+			var link1 = fomc_link.link("http://www.cmegroup.com/trading/interest-rates/files/fed-funds-futures-probability-tree-calculator.pdf", target='_blank');
+		
+			document.write(fomc);
+
+			
+			document.write("</p>");
+		
+		</script>
+	
+			<a href="FOMC_Rate_Move_Probability.pdf" class="myButton3" target="_blank">Research Paper</a>
+		
+	
+	
+		<script type="text/javascript">
+		
+	
+			document.write("<p class='silverlight'>");
+		
+			var tsy = "Treasury Basis and Delivery Options";
+		
+			document.write(tsy);
+			document.write("</p>");
+		
+		</script>
+	
+			<a href="http://www.cmegroup.com/education/files/treasury-futures-basis-spreads.pdf" class="myButton3" target="_blank">Research Paper</a>
+	
+		</div>
+		
+		</body>
